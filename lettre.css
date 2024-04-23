@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins ;
+}
+
+body {
+    background: lightblue;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    color: #003147;
+}
+.logo{
+    font-size: 32px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    position: fixed;
+    top: 10px;
+    left:40px;
+    display: flex;
+    background: transparent;
+    z-index: 100;
+}
+.content{
+    border: 2px solid #003147;
+    border-radius: 20px;
+    box-shadow: 0 35px 35px 40px  rgba(0, 0, 0,0.1);
+    margin: 2% 15%;
+
+}
+p { padding: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 650;
+}
+span{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 80px ;
+}
+.spanP{
+    padding-left: 30px ;
+}
+#p1{
+    font-weight: 650;
+    margin-left: 2%;
+}
+#p2{
+    margin-left: 75%;
+    text-align: end;
+}
+#date{
+    padding-bottom: 5%;
+}
+#contenu{
+    font-weight: 500;
+    padding:0 60px;
+}
+#name{
+margin:5%  0 0 50%;
+}
+.content .signature-img img{
+    width: 200px;
+    height: 150px;
+    margin-left: 60%;
+}
